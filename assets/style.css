@@ -28,13 +28,6 @@
     font-size: 200%;
   }
   
-  /*
-  a[href*='.css']::after {
-    content: '📝';
-    display: inline-block;
-    margin-left: 3px;
-  }
-  */
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -47,11 +40,7 @@
     font-weight: bold;
     text-decoration: none;
   }
-  /*
-  nav a:hover {
-    color: var(--light);
-  }
-  */
+ 
   main {
     display: flex;
     flex: 1 1 0;
@@ -100,15 +89,7 @@
     flex-wrap: wrap;
     margin-top: 2%;
   }
-  
-  .aside-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-    background: #13293d;
-    color: #fff;
-  }
-  
+   
   .HTMLapp {
     flex: 1 0 800px;
     padding: 10px;
