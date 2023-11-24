@@ -1,6 +1,4 @@
-/* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
 :root {
-    /* declare a variable with `--` syntax */
     --dark: #086578;
     --light: #fff;
     --navlink-color: #b9c6ae;
@@ -17,7 +15,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    /* use CSS var() function to reference a variable created above */
     background-color: var(--dark);
     color: var(--light);
   }
@@ -28,15 +25,16 @@
   
   h2 {
     margin: 2% 0;
-    font-size: 250%;
+    font-size: 200%;
   }
   
+  /*
   a[href*='.css']::after {
     content: '📝';
     display: inline-block;
     margin-left: 3px;
   }
-  
+  */
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -49,11 +47,11 @@
     font-weight: bold;
     text-decoration: none;
   }
-  
+  /*
   nav a:hover {
     color: var(--light);
   }
-  
+  */
   main {
     display: flex;
     flex: 1 1 0;
@@ -62,7 +60,6 @@
   }
   
   article {
-    /* If we were to change the value of `--dark`, then all references to it would change automatically */
     border-bottom: 1px solid var(--dark);
   }
   
@@ -99,16 +96,13 @@
   }
   
   aside {
-    /* Turns this element into a flexbox */
     display: flex;
-    /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     margin-top: 2%;
   }
   
   .aside-header {
     display: flex;
-    /* Defines how to distribute the empty space between child elements */
     justify-content: space-between;
     padding: 60px;
     background: #13293d;
@@ -116,8 +110,6 @@
   }
   
   .HTMLapp {
-    /* A flex-basis of 200px sets the starting width */
-    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
     flex: 1 0 800px;
     padding: 10px;
     text-align: center;
@@ -132,8 +124,6 @@
   }
 
   .apps {
-    /* A flex-basis of 200px sets the starting width */
-    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
     flex: 1 0 300px;
     padding: 10px;
     text-align: center;
