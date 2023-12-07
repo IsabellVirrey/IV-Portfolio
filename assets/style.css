@@ -19,11 +19,11 @@
     color: var(--light);
   }
   
-  h1 {
+  h1 { /*Styles the main Isabell Virrey header*/
     font-size: 200%;
   }
   
-  h2 {
+  h2 { /*styles our About me, Work, Resume, Contact Me headers */
     margin: 2% 0;
     font-size: 200%;
   }
@@ -48,7 +48,7 @@
     margin: 2% auto;
   }
   
-  article {
+  article { /*styles everything within article so the entire About Me, Work, Resume, and contact me sections */
     border-bottom: 1px solid var(--dark);
   }
   
@@ -62,7 +62,7 @@
     font-size: 110%;
     list-style: circle;
   }
-  img {
+  img { /*sizing for my selfie image */
     width: 50%;
   }
 
