@@ -1,62 +1,16 @@
 # IV-Portfolio
 ## Description
 
-This project consists of a portfolio page with a section about me, my work, my resume and a section with contact information. The purpose of this project is to showcase my work as a web delevoper for a future emplyer to see it. This will help an employer see my skills and abilities as a web developer. 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+This project consists of a portfolio page with a section about me, my work, my resume and a section with contact information. The purpose of this project is to showcase my work as a web delevoper for a future emplyer to see it. This will help an employer see my skills and abilities as a web developer. Finally, this project helped me learn the importance of continuously displaying my true capabilities of web development because as I learn more and more I will need to document it. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+Instructions on using my portfolio are the following: 
+1. Click the link to access the portfolio website. 
+2. Read through the About Me, Work, Resume, and Contact section.
+3. If any section in particular interests you, please click on the links for more information.
+4. Finally, if you would like to get in contact with me directly, contact me via phone or email with the inforamtion provided in the Contact Me section.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+A tutorial that I followed to help me with commiting my work up to GitHub for this project was the following: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub 
