@@ -74,7 +74,7 @@
     color: var(--light);
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) { /*for resizing the page view*/
     header {
       flex-direction: column;
     }
@@ -90,7 +90,7 @@
     margin-top: 2%;
   }
    
-  .HTMLapp {
+  .HTMLapp { /* Created a unique class for the first apps so that it can be a different size (different styling) than the other three apps */
     flex: 1 0 800px;
     padding: 10px;
     text-align: center;
@@ -98,13 +98,13 @@
     border-width: 1px;
   }
   
-  .HTMLapp header {
+  .HTMLapp header { /* Created a unique class for the apps button so that it can be a different size (different styling) than the other three apps */
     padding: 20px;
     background: #086578;
     color: #fff;
   }
 
-  .apps {
+  .apps { /*styling for the apps that are all the same */
     flex: 1 0 300px;
     padding: 10px;
     text-align: center;
@@ -112,7 +112,7 @@
     border-width: 1px;
   }
   
-  .apps header {
+  .apps header { /*styling for the apps that are all the same */
     padding: 20px;
     background: #086578;
     color: #fff;
